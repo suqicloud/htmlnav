@@ -921,11 +921,12 @@ ul.navbar-nav.mr-auto {
     border: none;
     cursor: pointer;
     text-align: center;
-    display: none; /* 默认不显示 */
+    opacity: 0; /* 初始状态为透明 */
+    transition: opacity 0.3s ease;
 }
 
 .mylist li.col-3:hover .dm-button {
-    display: block; /* 鼠标悬停时显示描述 */
+    opacity: 1; /* 鼠标悬停时显示描述 */
 }
 
 .dms-blue {
