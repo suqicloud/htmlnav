@@ -1,7 +1,7 @@
 项目来源于：https://github.com/LyLme/lylme_spage  
 
 
-我只用了前端页面进行修改，改成了纯静态html和WordPress版本。  
+我只用了前端页面进行修改，改成了html和WordPress版本。  
 
 WordPress就是首页可以显示网站的文章，然后背景图片可以改成通过必应壁纸获取。  
 
