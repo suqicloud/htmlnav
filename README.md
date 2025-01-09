@@ -10,7 +10,7 @@ WordPress就是首页可以显示网站的文章，然后背景图片也可以�
 WordPress版本就是里面的：indexwp.php  
 
 
-WordPress版本改成必应壁纸：https://iticu.icu/forum/topic/15  
+WordPress版本改成必应壁纸以及小版块的样式修改：https://iticu.icu/forum/topic/15  
 
 
 
