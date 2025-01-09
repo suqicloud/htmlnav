@@ -12,5 +12,14 @@ WordPress版本就是里面的：indexwp.php
 WordPress版本改成必应壁纸：https://iticu.icu/forum/topic/15  
 
 
+
 里面的热榜限制看这里：https://doc.lylme.com/spage/#/lytoday-js
 
+
+其他修改的地方：  
+1.板块样式  
+2.软件板块支持二级子目录  
+3.夜间模式  
+4.侧边导航栏改了一点  
+
+好像没有了，因为改很久了，忘记了。
