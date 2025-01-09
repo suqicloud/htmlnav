@@ -921,6 +921,11 @@ ul.navbar-nav.mr-auto {
     border: none;
     cursor: pointer;
     text-align: center;
+    display: none; /* 默认不显示 */
+}
+
+.mylist li.col-3:hover .dm-button {
+    display: block; /* 鼠标悬停时显示描述 */
 }
 
 .dms-blue {
