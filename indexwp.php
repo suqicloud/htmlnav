@@ -936,6 +936,37 @@ document.addEventListener("DOMContentLoaded", function() {
     <a title="返回顶部" onclick="window.scrollTo(0,0);return false;" href="#top" class="back-top"></a>
 </div>
 
+<!-- Wordpress -->
+<div class="blog-section">
+    <?php
+    $args = array(
+        'post_type' => 'post',
+        'posts_per_page' => 6,
+        'orderby' => 'date',
+        'order' => 'DESC'
+    );
+
+    $query = new WP_Query($args);
+
+    if ($query->have_posts()) :
+        while ($query->have_posts()) : $query->the_post(); ?>
+            <div class="blog-post">
+                <!-- 显示文章标题 -->
+                <a href="<?php the_permalink(); ?>" target="_blank">
+                    <?php echo wp_trim_words(get_the_title(), 18, '...'); ?>
+                </a>
+                <!-- 显示文章内容的前20个字符 -->
+                <p>
+                    <?php echo wp_trim_words(get_the_content(), 20, '...'); ?>
+                </p>
+            </div>
+        <?php endwhile;
+        wp_reset_postdata();
+    else : ?>
+        <p>No posts found</p>
+    <?php endif; ?>
+</div>
+
 <!-- 这段删掉可以走必应获取背景图片-->
 <script>
 // 定义图片数组，包含所有可能的图片地址
