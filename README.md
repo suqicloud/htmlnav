@@ -1,7 +1,7 @@
 项目来源于：https://github.com/LyLme/lylme_spage  
 
 
-我只用了前端页面进行修改，改成了html和WordPress版本，WordPress也就是一个php文件，加个Template Name，并不是主题或者插件。  
+我只用了前端页面进行修改，改成了html和WordPress版本，WordPress也就是一个php文件，加个Template Name页面可以识别，并不是主题或者插件。  
 我觉得导航加的不多，就手动改源码里面的差不多了。
 
 WordPress就是首页可以显示网站的文章，然后背景图片可以改成通过必应壁纸获取。  
